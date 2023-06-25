@@ -124,10 +124,3 @@ Detection will be shown on the image. The confidence and the coordinate of the d
 Get the JSON response by submitting a **POST** request to (./detection_json) with "image" as KEY and input image as VALUE.
 
 The object detection model is trained with the [Faster R-CNN model architecture](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md#coco-trained-models), which includes pretrained weight on COCO dataset. Taking the configuration from the model architecture and train it on my own dataset.
-
-
-## Future plans
-- [ ] Change the model to a more efficient YOLOv4
-- [ ] Implement SORT Tracking algorithm to filter out false detection
-- [ ] Improve the visual effect
-- [ ] Improve the efficiency, making it executable on web app services.
