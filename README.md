@@ -123,12 +123,6 @@ Detection will be shown on the image. The confidence and the coordinate of the d
 
 Get the JSON response by submitting a **POST** request to (./detection_json) with "image" as KEY and input image as VALUE.
 
-## Detection model
-
-<p align=center>
-    <img src="https://jkjung-avt.github.io/assets/2018-03-30-making-frcn-faster/FRCN_architecture.png" width="558" height="560.5">
-</p>
-
 The object detection model is trained with the [Faster R-CNN model architecture](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md#coco-trained-models), which includes pretrained weight on COCO dataset. Taking the configuration from the model architecture and train it on my own dataset.
 
 
